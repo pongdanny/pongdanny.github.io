@@ -3821,6 +3821,13 @@ body.subpage {
   font-size: 36px;
 }
 
+.projlinks:hover {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: #3498db;
+}
+
 #menu .close:before {
   content: "";
   -moz-osx-font-smoothing: grayscale;
