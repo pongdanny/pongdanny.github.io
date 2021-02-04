@@ -3817,6 +3817,10 @@ body.subpage {
   width: 7em;
 }
 
+.projlinks {
+  font-size: 50px;
+}
+
 #menu .close:before {
   content: "";
   -moz-osx-font-smoothing: grayscale;
