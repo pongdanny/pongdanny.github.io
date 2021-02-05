@@ -3828,6 +3828,11 @@ body.subpage {
   color: #3498db;
 }
 
+.techicons {
+  width: 50px;
+  height: 50px;
+}
+
 #menu .close:before {
   content: "";
   -moz-osx-font-smoothing: grayscale;
