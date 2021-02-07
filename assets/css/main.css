@@ -3295,11 +3295,11 @@ table.alt tbody tr td {
 }
 
 .wrapper.style2 a {
-  color: #999999;
+  color: black;
 }
 
 .wrapper.style2 a:hover {
-  color: rgba(153, 153, 153, 0.5);
+  color: white;
 }
 
 .wrapper.style2 strong,
@@ -3818,14 +3818,11 @@ body.subpage {
 }
 
 .projlinks {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .projlinks:hover {
-  background-color: white;
-  border: 1px solid white;
   border-radius: 5px;
-  color: #3498db;
 }
 
 .techicons {
