@@ -3093,7 +3093,7 @@ table.alt tbody tr td {
 .wrapper.style1 h4,
 .wrapper.style1 h5,
 .wrapper.style1 h6 {
-  color: #000;
+  color: #3498db;
 }
 
 .wrapper.style1 blockquote {
@@ -3285,7 +3285,7 @@ table.alt tbody tr td {
 
 .wrapper.style2 {
   background-color: #3498db;
-  color: #aed6f1;
+  color: gray;
 }
 
 .wrapper.style2 input,
@@ -3304,7 +3304,13 @@ table.alt tbody tr td {
 
 .wrapper.style2 strong,
 .wrapper.style2 b {
-  color: #fff;
+  color: black;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 30px;
+}
+
+.wrapper.style2 b:hover {
+  cursor: default;
 }
 
 .wrapper.style2 h1,
@@ -3313,7 +3319,7 @@ table.alt tbody tr td {
 .wrapper.style2 h4,
 .wrapper.style2 h5,
 .wrapper.style2 h6 {
-  color: #fff;
+  color: white;
 }
 
 .wrapper.style2 blockquote {
@@ -3818,7 +3824,7 @@ body.subpage {
 }
 
 .projlinks {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .projlinks:hover {
@@ -3826,14 +3832,16 @@ body.subpage {
 }
 
 .techicons {
-  width: 100px;
-  height: 100px;
+  width: 117px;
+  height: 117px;
+  background-image: none;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 75%;
+  background-color: #aed6f1;
 }
 
 .card:hover {
@@ -3842,6 +3850,7 @@ body.subpage {
 
 .projcontainer {
   padding: 2px 16px;
+  background-color: #aed6f1;
 }
 
 #menu .close:before {
