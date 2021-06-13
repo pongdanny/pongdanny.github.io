@@ -3834,7 +3834,13 @@ body.subpage {
 .techicons {
   width: 117px;
   height: 117px;
-  background-image: none;
+}
+
+.clone {
+  padding: 20px;
+  border: 3px solid lightgrey;
+  background-color: lightgrey;
+  border-radius: 10px;
 }
 
 .card {
